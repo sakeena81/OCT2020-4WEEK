@@ -27,7 +27,7 @@ To create a HR application which contains employee information, which needed to 
 
 (I know what you're thinking... just seven?)
 
-mind you there was one aspect that stood out for me   *Be as **creative** as you'd like with the design of the application*
+mind you there was one aspect that stood out for me... *Be as **creative** as you'd like with the design of the application*
 
 ## How I expected the challenge to go.
 
