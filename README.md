@@ -1,4 +1,4 @@
-# 4WKProject
+# 4 WEEK HTML/JS PROJECT
 
 #### THE TASK AT HAND:... 
 A 4 week project to create a HR application...
@@ -15,7 +15,7 @@ To create a HR application which contains employee information, which needed to 
 - Employee's Department
  (Note: we were not to use anybody's real information - dummy information is perfectly fine)
  
- (seemed straightforward enough... but then... we needed to meet the following 7 requirements 👀)
+ (seemed straightforward enough... but then... we needed to meet the following 7👀 requirements)
  
 1. The project must be written in PURE JavaScript 
 2. All the employee information should be displayed on the screen
@@ -27,19 +27,22 @@ To create a HR application which contains employee information, which needed to 
 
 (I know what you're thinking... just seven?)
 
-mind you there was one aspect that stood out for me... *Be as **creative** as you'd like with the design of the application*
+There was one aspect that stood out for me... *Be as **creative** as you'd like with the design of the application*
 
 ## How I expected the challenge to go.
+Personally, four weeks of being highly caffeinated. Other than that, the requirements were not easy, however my mindset was to complete everything, by using what I had learnt from the training, we also had recordings of the class time with QA and my notes to refer back to. 
+
+## What went well
+
+The basic construct of the table was easy, and any HTML was straightforward as long as you keep to the basic principals there should be no issues. Furthermore creating the style sheet was the most enjoyable. I am very much a visual learner, and it was aesthetically pleasing to see how a item I have been working on looked less like a seventies text book diagram, mind you my 7 year old did choose the colours for the HR table, and it did look like a roll of 'parma violets'
 
 
-## what went well
+## What didnt go as planned?
 
+Where do i start?... 
 
-
-
-## what didnt go as planned?
-
-
+firstly I had hardcoded the records into the table, visually it loomked more or less perfect, and my trainer was impressed...till he saw the code. So had to start that again. 
+the second time round, I had managed to make what seemed to be a sata submission form for HR, but the code was mostly in HTML. 
 ## Possible improvements for future challenges
 
 
