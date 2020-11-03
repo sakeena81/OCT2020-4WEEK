@@ -15,7 +15,7 @@ To create a HR application which contains employee information, that also needed
 - Employee's Department
  (Note: we were not to use anybody's real information - dummy information is perfectly fine)
  
- (seemed straight forward enough... but then🥁🥁🥁... we needed to meet the following 7👀 requirements)
+ (seemed straight forward enough... but then🥁🥁🥁... we needed to meet the following **7**👀 requirements)
  
 1. The project **must** be written in PURE JavaScript 
 2. All the employee information should be displayed on the screen
