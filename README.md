@@ -36,15 +36,21 @@ Personally, four weeks of being highly caffeinated. Other than that, the require
 
 The basic construct of the table was easy, and any HTML was straightforward as long as you keep to the basic principals there should be no issues. Furthermore creating the style sheet was the most enjoyable. I am very much a visual learner, and it was aesthetically pleasing to see how a item I have been working on looked less like a seventies text book diagram, mind you my 7 year old did choose the colours for the HR table, and it did look like a roll of 'parma violets'
 
+Also the willingness of others to help, much of my work would not have been done without the sheer concerted efforts of colleagues pulling together to check my code for me, or to give me pointers and advice. 
+
 
 ## What didnt go as planned?
 
 Where do i start?... 
 
 firstly I had hardcoded the records into the table, visually it looked more or less perfect, and my trainer was impressed...till he saw the code. So had to start that again. 
-the second time round, I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML. 
+the second time round, I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML, i realised this after looking back at the recordings and a submission on of a colleagues on GIThub. Having used up two weeks by now, and knowing where I had made the mistakes, I formed a new plan, and the third time round, I managed to form a code of how a loop could collect the records.js and display on the chrome page. Also, after speaking to my manager, the advice I got, was to look at code that was available and incorporate this, not to just rely on the class material, my own notes or even just the websites I was approved to use. That the options for help were alot wider in order to complete and meet the deadline. 
+
 ## Possible improvements for future challenges
 
+Javascript I found is harder than initally perceived, but the key is planning. I had not dated my notes from the class meetings, if I had done this, then I would be able to refer faster and easier back to the recordings to follow the instructions and demos, as a result, I was sifting through 4-5 hours of footage per day, to find the demonstrations I needed.
+
+Also, more practice is needed, Javascript is all very new to me, but I can see with maybe a few months practice I could complete something like this project without having to refer to much to other sources. It would also be a possible consideration for those os 
 
 
 Copyright (c) 2020 **_Sakeena Ali_**
