@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HR FORM</title>
+        <link href= "/Users/Sakeena.Ali/Desktop/PR OCT/finalised items /HRFORM.css"rel = "stylesheet" type = "text/css">
+		<script src= "/Users/Sakeena.Ali/Desktop/PR OCT/Records.js"> </script>
+		<script src= "/Users/Sakeena.Ali/Desktop/PR OCT/Functions.js"> </script>
+
+    </head> 
+
+<script> 
+function show(records) {
+  //clear the table, if it has values in it
+    console.log(records.length)	
+ var table = document.getElementById("employeetable");
+ var tbodynew = document.createElement("tbody");
+ var tbodyold = table.children[1];
+
+tbodyold.parentNode.replaceChild(tbodynew,tbodyold)
+var tbody = table.children[1];
+// table.appendChild(tr);
+//document.body.appendChild(table);
+//create dynamically
+//find table by ID
+//find table body by child
+//append to the body a new element of <tr> append the <tr> to the <tbody>
+//append for each record
+//each row add <tr want to ad <td
+
+for (var i = 1; i <records.length; i++){
+ var tr = document.createElement("tr");   
+ var td1 = document.createElement("td");
+ td1.innerHTML = records[i].ninumber;
+ var td2 = document.createElement("td");
+ td2.innerHTML = records[i].fullname;
+ var td3 = document.createElement("td");
+ td3.innerHTML = records[i].phone;
+ var td4 = document.createElement("td");
+ td4.innerHTML = records[i].address;
+ var td5 = document.createElement("td");
+ td5.innerHTML = records[i].department;
+ 
+ tr.appendChild(td1);
+ tr.appendChild(td2);
+ tr.appendChild(td3);
+ tr.appendChild(td4);
+ tr.appendChild(td5);
+
+  deleteButton = document.createElement("input");
+  deleteButton.type="button";
+  deleteButton.id = "a" + i;
+  deleteButton.dataset.index=i;
+  deleteButton.className = "delete";
+  deleteButton.value = "Del";
+  deleteButton.style.visibility = "visible";
+  deleteButton.onclick=()=> deleteRecord(this);
+  let tabCell = tr.insertCell(-1);
+  tabCell.appendChild(deleteButton);
+  
+
+  editButton = document.createElement("input");
+  editButton.type="button";
+  //editButton.id = i;
+  editButton.className = "delete";
+  editButton.value = "Edit";
+  editButton.style.visibility="visible";
+  //editButton.onclick=()=> editRecord(i);
+  tabCell.appendChild(editButton);
+
+tbody.appendChild(tr);
+ 
+   // Adding json data as tr.
+  
+        }
+        
+    }
+
+   //create dynamically
+    //find table by ID
+    //find table body by child
+    //append to the body a new element of <tr> append the <tr> to the <tbody>
+        //append for each record
+        //each row add <tr want to ad <td
+
+</script> 
+<h2 style="color: rgb(96, 75, 175);">EDIT EMPLOYEE</h2>  
+
+
+<div>
+    <table id="table">
+         <thead> 
+           <tr>
+           <th>NI number <input id="addNI"> </th>
+           <th>Full name <input id="addFullName"></th>
+           <th>Phone <input id="addPhone"></th>
+           <th>Address <input id="addAdd"></th>
+            <th>Department<input id="addDep"></th>
+           <th>Actions
+                <input type="button" value="submit" onclick="addRecord()">
+              </th> 
+            </thead>   
+            </table>  
+            </div> <br>
+                               
+<div><table id = "employeetable" style="width:100%">
+    <thead>
+        <tr>
+          <th>NI number</th>
+          <th>Fullname</th>
+          <th>Phone</th>
+          <th>Address</th>
+          <th>Department</th>
+          <th>Actions<br>  
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+      </table>
+    </div>
+<body onload="show(records)">
+<div>
+<br>
+
+</body>
+</html>
