@@ -41,8 +41,8 @@ The basic construct of the table was easy, and any HTML was straightforward as l
 
 Where do i start?... 
 
-firstly I had hardcoded the records into the table, visually it loomked more or less perfect, and my trainer was impressed...till he saw the code. So had to start that again. 
-the second time round, I had managed to make what seemed to be a sata submission form for HR, but the code was mostly in HTML. 
+firstly I had hardcoded the records into the table, visually it looked more or less perfect, and my trainer was impressed...till he saw the code. So had to start that again. 
+the second time round, I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML. 
 ## Possible improvements for future challenges
 
 
