@@ -16,11 +16,12 @@ function deleteRecord(button){
     // var result = records.find(obj => {
     //     return obj.ninumber === button.id
     // })
-    var test = button.getAttribute("index");
+    var buttonIndex = parseInt(button.dataset.index);
+    
     let choice = confirm("do you want to delete this record?");
     if(choice == true){
         for (let index = 0; index < records.length; index++) {
-           if (records [index] == button.id) {
+           if  (index == buttonIndex) {
             records.splice(index, 1);
                
            } 
