@@ -2,9 +2,9 @@
 <html>
     <head>
         <title>HR FORM</title>
-        <link href= "/Users/Sakeena.Ali/Desktop/PR OCT/finalised items /HRFORM.css"rel = "stylesheet" type = "text/css">
-		<script src= "/Users/Sakeena.Ali/Desktop/PR OCT/Records.js"> </script>
-		<script src= "/Users/Sakeena.Ali/Desktop/PR OCT/Functions.js"> </script>
+        <link href= "HRFORM.css"rel = "stylesheet" type = "text/css">
+		<script src= "Records.js"> </script>
+		<script src= "Functions.js"> </script>
 
     </head> 
 
@@ -53,8 +53,10 @@ for (var i = 1; i <records.length; i++){
   deleteButton.className = "delete";
   deleteButton.value = "Del";
   deleteButton.style.visibility = "visible";
-  deleteButton.onclick=()=> deleteRecord(this);
-  let tabCell = tr.insertCell(-1);
+    deleteButton.onclick = function () {
+      deleteRecord(this);
+};
+let tabCell = tr.insertCell(-1);  
   tabCell.appendChild(deleteButton);
   
 
