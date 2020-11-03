@@ -43,8 +43,11 @@ Also the willingness of others to help, much of my work would not have been done
 
 Where do I start?...😳
 
-firstly I had hardcoded the records into the table, visually it looked more or less perfect, and my trainer was impressed...till he saw the code. So had to start that again. 
-The second time round, I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML, i realised this after looking back at the recordings and a submission of a colleagues on GIThub. By now I had used up two weeks on this, but knowing where I had made the mistakes, I formed a new plan, and the third time round, I managed to form a code of how a loop could collect the data from Records.js and display on the chrome page. Also, after speaking to my manager, the advice I got, was to look at code that was available and incorporate this, not to just rely on the class material, my own notes or even just the websites I was approved to use. That the options for help were alot wider in order to complete and meet the deadline. 
+**ERROR 1** I had hardcoded the records into the table, visually it looked more or less perfect, and my trainer was impressed...till he saw the code. So had to start that again. 
+**Error 2** I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML, I realised this after looking back at the recordings and a submission of a colleagues on GIThub. 
+By now I had used up two weeks on this, but knowing where I had made the mistakes, I formed a new plan, and the third time round, I managed to form a code of how a loop could collect the data from Records.js and display on the chrome page. 
+
+Also, after speaking to my manager, the advice I got, was to look at code that was available and incorporate this, not to just rely on the class material, my own notes or even just the websites I was approved to use. That the options for help were alot wider in order to complete and meet the deadline. 
 
 ## Possible improvements for future challenges
 
