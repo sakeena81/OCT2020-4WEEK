@@ -6,7 +6,7 @@ A 4 week project to create a HR application...
 #### By _**Sakeena Ali**_
 
 ## What was the Challenge?
-To create a HR application which contains employee information, which needed to capture the following data:
+To create a HR application which contains employee information, that also needed to capture the following data:
 
 - Employee's NI Number
 - Employee's Full Name
@@ -15,14 +15,14 @@ To create a HR application which contains employee information, which needed to 
 - Employee's Department
  (Note: we were not to use anybody's real information - dummy information is perfectly fine)
  
- (seemed straightforward enough... but then... we needed to meet the following 7👀 requirements)
+ (seemed straight forward enough... but then🥁🥁🥁... we needed to meet the following 7👀 requirements)
  
-1. The project must be written in PURE JavaScript 
+1. The project **must** be written in PURE JavaScript 
 2. All the employee information should be displayed on the screen
-3. Users must be able to add an employee to the list 
-4. Users must be able to edit employee information 
-5. Users must be able to delete an employee 
-6. Users must be able to filter the list of employees based on their department through a dropdown box / search bar - i.e. HR, Sales etc. 
+3. Users **must** be able to add an employee to the list 
+4. Users **must** be able to edit employee information 
+5. Users **must** be able to delete an employee 
+6. Users **must** be able to filter the list of employees based on their department through a dropdown box / search bar - i.e. HR, Sales etc. 
 7. You must create separate files for your HTML, JS, CSS etc.
 
 (I know what you're thinking... just seven?)
@@ -41,10 +41,10 @@ Also the willingness of others to help, much of my work would not have been done
 
 ## What didnt go as planned?
 
-Where do i start?... 
+Where do I start?...🤦🏽‍♀️ 
 
 firstly I had hardcoded the records into the table, visually it looked more or less perfect, and my trainer was impressed...till he saw the code. So had to start that again. 
-the second time round, I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML, i realised this after looking back at the recordings and a submission on of a colleagues on GIThub. Having used up two weeks by now, and knowing where I had made the mistakes, I formed a new plan, and the third time round, I managed to form a code of how a loop could collect the records.js and display on the chrome page. Also, after speaking to my manager, the advice I got, was to look at code that was available and incorporate this, not to just rely on the class material, my own notes or even just the websites I was approved to use. That the options for help were alot wider in order to complete and meet the deadline. 
+The second time round, I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML, i realised this after looking back at the recordings and a submission of a colleagues on GIThub. By now I had used up two weeks on this, but knowing where I had made the mistakes, I formed a new plan, and the third time round, I managed to form a code of how a loop could collect the data from Records.js and display on the chrome page. Also, after speaking to my manager, the advice I got, was to look at code that was available and incorporate this, not to just rely on the class material, my own notes or even just the websites I was approved to use. That the options for help were alot wider in order to complete and meet the deadline. 
 
 ## Possible improvements for future challenges
 
