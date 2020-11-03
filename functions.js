@@ -49,10 +49,7 @@ function editRecord(id) {
     let newButton = document.getElementById("editButt");
     newButton.innerHTML = "";
     newButton.appendChild(saveChanges);
-    
-    
-    
-    
+
     document.getElementById("addNI").value = records[id].ninumber;
     document.getElementById("addFullName").value = records[id].fullname;
     document.getElementById("addPhone").value = records[id].phone;
