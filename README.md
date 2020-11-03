@@ -1,6 +1,6 @@
 # 4 WEEK HTML/JS PROJECT
 
-#### THE TASK AT HAND:... 
+#### THE TASK AT HAND:
 A 4 week project to create a HR application...
 
 #### By _**Sakeena Ali**_
