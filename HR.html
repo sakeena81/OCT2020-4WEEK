@@ -5,13 +5,12 @@
         <link href= "HRFORM.css"rel = "stylesheet" type = "text/css">
 		<script src= "Records.js"> </script>
     <script src= "Functions.js"> </script>
-    <!-- //<link href="index1.css"rel = "stylesheet" type = "text/css"> -->
-
+     
     </head> 
 
 <script> 
 function show(records) {
-  //clear the table, if it has values in it
+
     console.log(records.length)	
  var table = document.getElementById("employeetable");
  var tbodynew = document.createElement("tbody");
@@ -19,14 +18,7 @@ function show(records) {
 
 tbodyold.parentNode.replaceChild(tbodynew,tbodyold)
 var tbody = table.children[1];
-// table.appendChild(tr);
-//document.body.appendChild(table);
-//create dynamically
-//find table by ID
-//find table body by child
-//append to the body a new element of <tr> append the <tr> to the <tbody>
-//append for each record
-//each row add <tr want to ad <td
+
 
 for (var i = 1; i <records.length; i++){
  var tr = document.createElement("tr");   
@@ -74,16 +66,10 @@ let tabCell = tr.insertCell(-1);
 
 tbody.appendChild(tr);
  
-   // Adding json data as tr.
   
         }   
     }
-   //create dynamically
-    //find table by ID
-    //find table body by child
-    //append to the body a new element of <tr> append the <tr> to the <tbody>
-        //append for each record
-        //each row add <tr want to ad <td
+
 
 </script> 
 <h2 style="color: rgb(96, 75, 175);">W.H.O? FILES</h2>  
@@ -155,7 +141,7 @@ tbody.appendChild(tr);
             </div> 
             <div>
             <div class="id input"> 
-                <input type="submit" class="btn btn-success" value="Save" onclick="save(this)">
+                <input type="submit" class="btn btn-success" value="Save" onclick="save()">
                 <input type="submit" class="btn btn-success" value="Cancel" onclick="cancel()"></div>
 
             </div>  
@@ -163,4 +149,3 @@ tbody.appendChild(tr);
 </div>
 </body>
 </html>
-
