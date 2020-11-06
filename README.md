@@ -22,7 +22,7 @@ To create a HR application which contains employee information, that also needed
 3. Users **must** be able to add an employee to the list 
 4. Users **must** be able to edit employee information 
 5. Users **must** be able to delete an employee 
-6. Users **must** be able to filter the list of employees based on their department through a dropdown box / search bar - i.e. HR, Sales etc. 
+6. Users **must** be able to filter the list of employees based on their department through a dropdown box / search bar - i.e. HR, Sales etc. ( this is the only requirement I could not do)
 7. You must create separate files for your HTML, JS, CSS etc.
 
 (I know what you're thinking... **only** seven?)
@@ -39,6 +39,9 @@ The basic construct of the table was easy, and any HTML was straightforward as l
 Also the willingness of others to help, much of my work would not have been done without the sheer concerted efforts of colleagues helping to check my code for me, or to give me pointers and advice. 
 
 
+I have managed to complete the edit function, and changed from having two pages linked together, to placing the code into one main page, in order to get the edit actually working, I chose to move the initial edit code all within the same main page, which it now appears at the bottom. 
+
+
 ## What didnt go as planned?
 
 Where do I start?...😳
@@ -47,6 +50,8 @@ Where do I start?...😳
 
 **ERROR 2** I had managed to make what seemed to be a data submission form for HR, but the code was mostly in HTML, I realised this after looking back at the recordings and a submission of a colleagues on GIThub. 
 By now I had used up two weeks on this, but knowing where I had made the mistakes, I formed a new plan, and the third time round, I managed to form a code of how a loop could collect the data from Records.js and display on the chrome page. 
+
+Managed to complete all requirements, bar the search function, here I hit a brick wall, and would have liked to have completed this. 
 
 Also, after speaking to my manager, the advice I got, was to look at code that was available and incorporate this, not to just rely on the class material, my own notes or even just the websites I was approved to use. That the options for help were alot wider in order to complete and meet the deadline. 
 
