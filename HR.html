@@ -4,7 +4,8 @@
         <title>HR FORM</title>
         <link href= "HRFORM.css"rel = "stylesheet" type = "text/css">
 		<script src= "Records.js"> </script>
-		<script src= "Functions.js"> </script>
+    <script src= "Functions.js"> </script>
+    <!-- //<link href="index1.css"rel = "stylesheet" type = "text/css"> -->
 
     </head> 
 
@@ -62,11 +63,13 @@ let tabCell = tr.insertCell(-1);
 
   editButton = document.createElement("input");
   editButton.type="button";
-  //editButton.id = i;
+  editButton.id = records[i].ninumber;
   editButton.className = "delete";
   editButton.value = "Edit";
   editButton.style.visibility="visible";
-  editButton.onclick=()=> location.href = "HRapp.html";
+  editButton.onclick = function () {
+    editrecord(this);
+  };
   tabCell.appendChild(editButton);
 
 tbody.appendChild(tr);
@@ -120,6 +123,44 @@ tbody.appendChild(tr);
 <body onload="show(records)">
 <div>
 <br>
+<div id = "editperson" hidden>
+ 
+            <div id="head"> 
+                <h1 id="heading">EDIT EMPLOYEE</h1> 
+            </div> 
+             
+            <div id="" class="input"> 
+                <input id="editNI" type="text" 
+                    Placeholder="NInumber" name="ninumber" 
+                    required> 
+            </div> 
+            <div id="" class="input"> 
+                <input id="editName" type="text" placeholder= 
+                    "Fullname" name="fullname" required> 
+            </div> 
+            <div id="" class="input"> 
+                <input id="editPhone" type="text" 
+                    name="Phone" 
+                    placeholder="phone"> 
+            </div> 
+          
+            <div id="" class="input"> 
+                <input id="editAddress" type="text" 
+                    Placeholder="Address" name="address" 
+                    required> 
+            </div> 
+            <div id="" class="input"> 
+                <input id="editDept" type="text" placeholder= 
+                    "Department" name="department" required> 
+            </div> 
+            <div>
+            <div class="id input"> 
+                <input type="submit" class="btn btn-success" value="Save" onclick="save(this)">
+                <input type="submit" class="btn btn-success" value="Cancel" onclick="cancel()"></div>
 
+            </div>  
+
+</div>
 </body>
 </html>
+
