@@ -36,6 +36,8 @@ Personally, four weeks of being highly caffeinated. Other than that, the require
 
 The basic construct of the table was easy, and any HTML was straightforward as long as you keep to the basic principals there should be no issues. Furthermore creating the style sheet was the most enjoyable. I am very much a visual learner, and it was aesthetically pleasing to see how a item I have been working on looked less like a seventies text book diagram, mind you my 7 year old did choose the colours for the HR table, and it did end up looking like a pack of 'parma violet sweets'
 
+![parma](/images/parma.png)
+
 Also the willingness of others to help, much of my work would not have been done without the sheer concerted efforts of colleagues helping to check my code for me, or to give me pointers and advice. 
 
 
