@@ -65,7 +65,7 @@ Also, more practice is needed, Javascript is all very new to me, but I can see w
 
 ## The report from QA! 
 
-![]/images/red.jpg
+![](/images/red.jpg)
 
 
 Copyright (c) 2020 **_Sakeena Ali_**
